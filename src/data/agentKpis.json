@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "code": "INR",
+    "symbol": "₹",
+    "lastUpdatedIso": "2026-04-07T10:00:00.000Z"
+  },
+  "agentId": "AG-001",
+  "agentName": "R. Kapoor",
+  "dashboard": {
+    "totalMerchants": 48,
+    "activeMerchants": 42,
+    "totalLiveDeals": 22,
+    "mtdRevenueInr": 1000000
+  },
+  "pipelineAndOnboarding": {
+    "stages": { "pipeline": 2, "integration": 3, "uat": 1, "liveMerchant": 42 },
+    "merchantsOnboardedByMonth": [
+      { "month": "2025-11", "merchantsOnboarded": 4 },
+      { "month": "2025-12", "merchantsOnboarded": 5 },
+      { "month": "2026-01", "merchantsOnboarded": 6 },
+      { "month": "2026-02", "merchantsOnboarded": 7 },
+      { "month": "2026-03", "merchantsOnboarded": 8 },
+      { "month": "2026-04", "merchantsOnboarded": 3 }
+    ]
+  },
+  "dealPromotionMonitor": {
+    "totals": {
+      "activeDeals": 22,
+      "totalClicks": 45000,
+      "totalCheckouts": 11250,
+      "totalRevenueInr": 1000000
+    },
+    "campaigns": [
+      {
+        "campaignId": "CMP-summer",
+        "name": "Summer Splash Sale",
+        "activeDeals": 8,
+        "totalClicks": 16000,
+        "totalCheckouts": 4000,
+        "revenueInr": 180000
+      },
+      {
+        "campaignId": "CMP-tech",
+        "name": "Tech Mania",
+        "activeDeals": 6,
+        "totalClicks": 14000,
+        "totalCheckouts": 3500,
+        "revenueInr": 320000
+      },
+      {
+        "campaignId": "CMP-style",
+        "name": "Style Week",
+        "activeDeals": 5,
+        "totalClicks": 10000,
+        "totalCheckouts": 2500,
+        "revenueInr": 300000
+      },
+      {
+        "campaignId": "CMP-gourmet",
+        "name": "Gourmet Thursdays",
+        "activeDeals": 3,
+        "totalClicks": 5000,
+        "totalCheckouts": 1250,
+        "revenueInr": 200000
+      }
+    ],
+    "deals": [
+      { "dealId": "D-SS-01", "campaign": "Summer Splash Sale", "merchantName": "FreshMart", "revenueInr": 22500, "clicks": 2000, "checkouts": 500 },
+      { "dealId": "D-SS-02", "campaign": "Summer Splash Sale", "merchantName": "FoodPark", "revenueInr": 22500, "clicks": 2000, "checkouts": 500 },
+      { "dealId": "D-SS-03", "campaign": "Summer Splash Sale", "merchantName": "StyleHub", "revenueInr": 22500, "clicks": 2000, "checkouts": 500 },
+      { "dealId": "D-SS-04", "campaign": "Summer Splash Sale", "merchantName": "FreshMart", "revenueInr": 22500, "clicks": 2000, "checkouts": 500 },
+      { "dealId": "D-SS-05", "campaign": "Summer Splash Sale", "merchantName": "FoodPark", "revenueInr": 22500, "clicks": 2000, "checkouts": 500 },
+      { "dealId": "D-SS-06", "campaign": "Summer Splash Sale", "merchantName": "StyleHub", "revenueInr": 22500, "clicks": 2000, "checkouts": 500 },
+      { "dealId": "D-SS-07", "campaign": "Summer Splash Sale", "merchantName": "FreshMart", "revenueInr": 22500, "clicks": 2000, "checkouts": 500 },
+      { "dealId": "D-SS-08", "campaign": "Summer Splash Sale", "merchantName": "FoodPark", "revenueInr": 22500, "clicks": 2000, "checkouts": 500 },
+      { "dealId": "D-TM-01", "campaign": "Tech Mania", "merchantName": "TechZone", "revenueInr": 50000, "clicks": 2400, "checkouts": 600 },
+      { "dealId": "D-TM-02", "campaign": "Tech Mania", "merchantName": "TechZone", "revenueInr": 50000, "clicks": 2400, "checkouts": 600 },
+      { "dealId": "D-TM-03", "campaign": "Tech Mania", "merchantName": "Nova Retail Group", "revenueInr": 50000, "clicks": 2400, "checkouts": 600 },
+      { "dealId": "D-TM-04", "campaign": "Tech Mania", "merchantName": "TechZone", "revenueInr": 50000, "clicks": 2400, "checkouts": 600 },
+      { "dealId": "D-TM-05", "campaign": "Tech Mania", "merchantName": "Nova Retail Group", "revenueInr": 50000, "clicks": 2400, "checkouts": 600 },
+      { "dealId": "D-TM-06", "campaign": "Tech Mania", "merchantName": "TechZone", "revenueInr": 70000, "clicks": 2000, "checkouts": 500 },
+      { "dealId": "D-SW-01", "campaign": "Style Week", "merchantName": "StyleHub", "revenueInr": 60000, "clicks": 2000, "checkouts": 500 },
+      { "dealId": "D-SW-02", "campaign": "Style Week", "merchantName": "StyleHub", "revenueInr": 60000, "clicks": 2000, "checkouts": 500 },
+      { "dealId": "D-SW-03", "campaign": "Style Week", "merchantName": "Nova Retail Group", "revenueInr": 60000, "clicks": 2000, "checkouts": 500 },
+      { "dealId": "D-SW-04", "campaign": "Style Week", "merchantName": "StyleHub", "revenueInr": 60000, "clicks": 2000, "checkouts": 500 },
+      { "dealId": "D-SW-05", "campaign": "Style Week", "merchantName": "Nova Retail Group", "revenueInr": 60000, "clicks": 2000, "checkouts": 500 },
+      { "dealId": "D-GT-01", "campaign": "Gourmet Thursdays", "merchantName": "FoodPark", "revenueInr": 65000, "clicks": 1700, "checkouts": 420 },
+      { "dealId": "D-GT-02", "campaign": "Gourmet Thursdays", "merchantName": "FoodPark", "revenueInr": 65000, "clicks": 1650, "checkouts": 415 },
+      { "dealId": "D-GT-03", "campaign": "Gourmet Thursdays", "merchantName": "FreshMart", "revenueInr": 70000, "clicks": 1650, "checkouts": 415 }
+    ]
+  },
+  "personalTracking": {
+    "topDeal": { "dealId": "D-TM-06", "title": "Tech Mania — Flagship Drop", "revenueInr": 70000 },
+    "myPerformance": {
+      "onboardedYtd": 33,
+      "pipelineConversionRate": 0.64,
+      "avgDaysToLive": 18
+    }
+  }
+}

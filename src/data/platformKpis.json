@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "code": "INR",
+    "symbol": "₹",
+    "lastUpdatedIso": "2026-04-07T10:00:00.000Z"
+  },
+  "dashboardOverview": {
+    "totalActiveUsers": 12480,
+    "activeDeals": 156,
+    "topPerformingPartners": [
+      { "partnerId": "P-food", "name": "FoodPark", "revenueInr": 2800000, "rank": 1 },
+      { "partnerId": "P-nova", "name": "Nova Retail Group", "revenueInr": 1600000, "rank": 2 },
+      { "partnerId": "P-fresh", "name": "FreshMart", "revenueInr": 1420000, "rank": 3 },
+      { "partnerId": "P-tech", "name": "TechZone", "revenueInr": 1380000, "rank": 4 },
+      { "partnerId": "P-style", "name": "StyleHub", "revenueInr": 1220000, "rank": 5 }
+    ],
+    "topCategories": [
+      { "categoryId": "CAT-grocery", "name": "Grocery", "dealCount": 38, "redemptionRate": 0.214 },
+      { "categoryId": "CAT-electronics", "name": "Electronics", "dealCount": 29, "redemptionRate": 0.188 },
+      { "categoryId": "CAT-fashion", "name": "Fashion", "dealCount": 24, "redemptionRate": 0.176 },
+      { "categoryId": "CAT-dining", "name": "Dining", "dealCount": 21, "redemptionRate": 0.201 }
+    ]
+  },
+  "partnerPipelineAndGrowth": {
+    "pipelineStages": { "pipeline": 24, "integration": 18, "uat": 11, "live": 312 },
+    "newCoupons": 128,
+    "newMerchants": 47,
+    "newProducts": 2156
+  },
+  "detailedAnalytics": {
+    "partnerPerformance": [
+      { "partnerId": "P-food", "name": "FoodPark", "totalSalesInr": 2800000, "activeDeals": 22, "avgDealPerformanceScore": 86.4 },
+      { "partnerId": "P-nova", "name": "Nova Retail Group", "totalSalesInr": 1600000, "activeDeals": 18, "avgDealPerformanceScore": 82.1 },
+      { "partnerId": "P-fresh", "name": "FreshMart", "totalSalesInr": 1420000, "activeDeals": 15, "avgDealPerformanceScore": 79.8 },
+      { "partnerId": "P-tech", "name": "TechZone", "totalSalesInr": 1380000, "activeDeals": 14, "avgDealPerformanceScore": 81.2 },
+      { "partnerId": "P-style", "name": "StyleHub", "totalSalesInr": 1220000, "activeDeals": 12, "avgDealPerformanceScore": 77.5 }
+    ],
+    "productPerformance": [
+      { "productId": "SKU-77821", "name": "Organic Rice 5kg", "redemptions": 8420, "conversionRate": 0.312 },
+      { "productId": "SKU-44102", "name": "Noise-Cancel Earbuds", "redemptions": 6280, "conversionRate": 0.289 },
+      { "productId": "SKU-22091", "name": "Running Shoes", "redemptions": 5140, "conversionRate": 0.276 },
+      { "productId": "SKU-11987", "name": "Cold-Pressed Oil 1L", "redemptions": 4980, "conversionRate": 0.268 }
+    ],
+    "dealAnalytics": {
+      "revenueFromDealsInr": 8420000,
+      "overallRedemptionRate": 0.182,
+      "totalRedemptions": 153608,
+      "totalIssued": 844000
+    },
+    "userBehavior": {
+      "mostActiveUsers": [
+        { "userId": "U-10021", "displayName": "Aisha K.", "engagements30d": 186 },
+        { "userId": "U-08814", "displayName": "Rahul M.", "engagements30d": 172 },
+        { "userId": "U-20402", "displayName": "Neha S.", "engagements30d": 161 },
+        { "userId": "U-09177", "displayName": "Vikram P.", "engagements30d": 154 }
+      ],
+      "engagementTrends": [
+        { "weekLabel": "W1 Mar", "activeUsers": 10240, "sessions": 41820 },
+        { "weekLabel": "W2 Mar", "activeUsers": 10890, "sessions": 44110 },
+        { "weekLabel": "W3 Mar", "activeUsers": 11120, "sessions": 45280 },
+        { "weekLabel": "W4 Mar", "activeUsers": 11480, "sessions": 46350 },
+        { "weekLabel": "W1 Apr", "activeUsers": 11860, "sessions": 47920 },
+        { "weekLabel": "W2 Apr", "activeUsers": 12480, "sessions": 49100 }
+      ]
+    }
+  }
+}

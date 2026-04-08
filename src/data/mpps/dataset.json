@@ -1,0 +1,523 @@
+{
+  "meta": { "program": "MPPS", "product": "Deals & Coupons", "currency": "INR" },
+  "profiles": {
+    "admin": { "name": "Super Admin", "email": "admin@rewardz.in", "initials": "SA" },
+    "merchant": { "name": "FreshMart Owner", "email": "merchant@freshmart.in", "initials": "FM" },
+    "agent": { "name": "R. Kapoor", "email": "agent@rewardz.in", "initials": "RK" }
+  },
+  "admin": {
+    "dashboardHome": {
+      "activeUsers": 3482,
+      "activeUsersDeltaPct": 12,
+      "activeDeals": 27,
+      "dealsExpiringSoon": 3,
+      "liveMerchants": 14,
+      "pendingUatMerchants": 2,
+      "revenueMtdInr": 420000,
+      "revenueDeltaPct": 8,
+      "pipelineBars": { "liveMerchant": 2, "uat": 1, "integration": 1 },
+      "dealPerformance": [
+        {
+          "dealId": "D1",
+          "name": "Summer Splash Sale",
+          "status": "Active",
+          "clicks": 1240,
+          "orders": 335,
+          "cvr": 0.27
+        },
+        {
+          "dealId": "D2",
+          "name": "Tech Mania",
+          "status": "Expired",
+          "clicks": 890,
+          "orders": 214,
+          "cvr": 0.24
+        },
+        {
+          "dealId": "D3",
+          "name": "Style Week",
+          "status": "Scheduled",
+          "clicks": 0,
+          "orders": 0,
+          "cvr": 0
+        }
+      ]
+    },
+    "users": [
+      {
+        "id": "U-ADM-1",
+        "name": "Arjun Sharma",
+        "email": "arjun@example.com",
+        "phone": "+91 9876543210",
+        "role": "Admin",
+        "status": "Active"
+      },
+      {
+        "id": "U-ADM-2",
+        "name": "Priya Nair",
+        "email": "priya@example.com",
+        "phone": "+91 9123456780",
+        "role": "Sub-Admin",
+        "status": "Active"
+      },
+      {
+        "id": "U-ADM-3",
+        "name": "Rohan Mehta",
+        "email": "rohan@example.com",
+        "phone": "+91 9988776655",
+        "role": "Sub-Admin",
+        "status": "Inactive"
+      }
+    ],
+    "merchants": [
+      {
+        "id": "M001",
+        "name": "FreshMart",
+        "model": "Affiliate Type 1",
+        "liveDeals": 9,
+        "country": "India",
+        "pipeline": "Live Merchant"
+      },
+      {
+        "id": "M002",
+        "name": "TechZone",
+        "model": "Affiliate Type 2",
+        "liveDeals": 7,
+        "country": "India",
+        "pipeline": "UAT"
+      },
+      {
+        "id": "M003",
+        "name": "StyleHub",
+        "model": "Affiliate Type 1",
+        "liveDeals": 8,
+        "country": "UAE",
+        "pipeline": "Live Merchant"
+      },
+      {
+        "id": "M004",
+        "name": "FoodPark",
+        "model": "Affiliate Type 2",
+        "liveDeals": 3,
+        "country": "India",
+        "pipeline": "Integration"
+      }
+    ],
+    "categories": [
+      {
+        "id": "CAT-FB",
+        "name": "Food & Bev",
+        "description": "Food and beverages",
+        "emoji": "🍔",
+        "productCount": 24
+      },
+      {
+        "id": "CAT-EL",
+        "name": "Electronics",
+        "description": "Gadgets and devices",
+        "emoji": "💻",
+        "productCount": 18
+      },
+      {
+        "id": "CAT-FA",
+        "name": "Fashion",
+        "description": "Clothing & accessories",
+        "emoji": "👗",
+        "productCount": 35
+      },
+      {
+        "id": "CAT-HB",
+        "name": "Health & Beauty",
+        "description": "Wellness and personal care",
+        "emoji": "💄",
+        "productCount": 12
+      }
+    ],
+    "products": {
+      "totalCatalogProducts": 89,
+      "featured": [
+        {
+          "id": "SKU-101",
+          "name": "Premium Coffee Blend",
+          "merchantId": "M001",
+          "merchantName": "FreshMart",
+          "categoryId": "CAT-FB",
+          "categoryName": "Food & Bev",
+          "priceInr": 499,
+          "inStock": true
+        },
+        {
+          "id": "SKU-202",
+          "name": "Wireless Earbuds",
+          "merchantId": "M002",
+          "merchantName": "TechZone",
+          "categoryId": "CAT-EL",
+          "categoryName": "Electronics",
+          "priceInr": 2999,
+          "inStock": true
+        },
+        {
+          "id": "SKU-303",
+          "name": "Designer T-Shirt",
+          "merchantId": "M003",
+          "merchantName": "StyleHub",
+          "categoryId": "CAT-FA",
+          "categoryName": "Fashion",
+          "priceInr": 1299,
+          "inStock": true
+        },
+        {
+          "id": "SKU-102",
+          "name": "Cold-Pressed Oil 1L",
+          "merchantId": "M001",
+          "merchantName": "FreshMart",
+          "categoryId": "CAT-FB",
+          "categoryName": "Food & Bev",
+          "priceInr": 349,
+          "inStock": false
+        },
+        {
+          "id": "SKU-203",
+          "name": "Smart Watch",
+          "merchantId": "M002",
+          "merchantName": "TechZone",
+          "categoryId": "CAT-EL",
+          "categoryName": "Electronics",
+          "priceInr": 8999,
+          "inStock": false
+        },
+        {
+          "id": "SKU-304",
+          "name": "Running Shoes",
+          "merchantId": "M003",
+          "merchantName": "StyleHub",
+          "categoryId": "CAT-FA",
+          "categoryName": "Fashion",
+          "priceInr": 4499,
+          "inStock": true
+        }
+      ]
+    },
+    "deals": [
+      {
+        "id": "D1",
+        "title": "Summer Splash Sale",
+        "productName": "Premium Coffee Blend",
+        "merchantName": "FreshMart",
+        "merchantId": "M001",
+        "start": "2025-06-01",
+        "end": "2025-06-30",
+        "clicks": 1240,
+        "valueLabel": "20%",
+        "valueKind": "percent",
+        "status": "Active"
+      },
+      {
+        "id": "D2",
+        "title": "Tech Mania",
+        "productName": "Wireless Earbuds",
+        "merchantName": "TechZone",
+        "merchantId": "M002",
+        "start": "2025-05-01",
+        "end": "2025-05-20",
+        "clicks": 890,
+        "valueLabel": "₹500",
+        "valueKind": "flat",
+        "status": "Expired"
+      },
+      {
+        "id": "D3",
+        "title": "Style Week",
+        "productName": "Designer T-Shirt",
+        "merchantName": "StyleHub",
+        "merchantId": "M003",
+        "start": "2025-07-01",
+        "end": "2025-07-07",
+        "clicks": 0,
+        "valueLabel": "15%",
+        "valueKind": "percent",
+        "status": "Scheduled"
+      }
+    ],
+    "dealStatusCounts": { "active": 1, "scheduled": 1, "expired": 1 }
+  },
+  "merchant": {
+    "merchantId": "M001",
+    "merchantName": "FreshMart",
+    "dashboard": {
+      "activeDeals": 9,
+      "totalClicks": 2500,
+      "totalCheckouts": 620,
+      "revenueFromDealsInr": 240000,
+      "bounceRate": 0.18
+    },
+    "deals": [
+      {
+        "id": "MD-FM-1",
+        "title": "Weekend Grocery 12% Off",
+        "clicks": 1200,
+        "checkouts": 300,
+        "revenueInr": 120000,
+        "conversionRate": 0.25
+      },
+      {
+        "id": "MD-FM-2",
+        "title": "Fresh Produce Flash",
+        "clicks": 800,
+        "checkouts": 200,
+        "revenueInr": 80000,
+        "conversionRate": 0.25
+      },
+      {
+        "id": "MD-FM-3",
+        "title": "Breakfast Essentials",
+        "clicks": 500,
+        "checkouts": 120,
+        "revenueInr": 40000,
+        "conversionRate": 0.24
+      }
+    ],
+    "products": [
+      {
+        "id": "SKU-101",
+        "name": "Premium Coffee Blend",
+        "categoryName": "Food & Bev",
+        "priceInr": 499,
+        "inStock": true
+      },
+      {
+        "id": "SKU-102",
+        "name": "Cold-Pressed Oil 1L",
+        "categoryName": "Food & Bev",
+        "priceInr": 349,
+        "inStock": false
+      },
+      {
+        "id": "SKU-103",
+        "name": "Organic Rice 5kg",
+        "categoryName": "Food & Bev",
+        "priceInr": 599,
+        "inStock": true
+      }
+    ],
+    "categoryMix": [
+      { "categoryId": "CAT-FB", "name": "Food & Bev", "productCount": 24, "shareOfStorePct": 100 }
+    ],
+    "coupons": [
+      {
+        "id": "CP-FM-1",
+        "campaign": "Weekend Stack",
+        "code": "FM-WEEKEND10",
+        "issued": 500,
+        "redeemed": 128,
+        "faceValueInr": 50,
+        "status": "Active"
+      },
+      {
+        "id": "CP-FM-2",
+        "campaign": "Free Ship Push",
+        "code": "FM-FREESHIP",
+        "issued": 200,
+        "redeemed": 45,
+        "faceValueInr": 0,
+        "status": "Active"
+      }
+    ]
+  },
+  "agent": {
+    "dashboard": {
+      "totalMerchants": 4,
+      "activeMerchants": 4,
+      "totalLiveDeals": 27,
+      "mtdRevenueInr": 420000,
+      "merchantsOnboardedYtd": 4
+    },
+    "pipelineMerchants": [
+      { "merchantId": "M001", "name": "FreshMart", "stage": "Live Merchant" },
+      { "merchantId": "M002", "name": "TechZone", "stage": "UAT" },
+      { "merchantId": "M003", "name": "StyleHub", "stage": "Live Merchant" },
+      { "merchantId": "M004", "name": "FoodPark", "stage": "Integration" }
+    ],
+    "campaignMonitor": [
+      {
+        "dealId": "D1",
+        "campaign": "Summer Splash Sale",
+        "activeDeals": 1,
+        "clicks": 1240,
+        "checkouts": 335,
+        "revenueInr": 155000
+      },
+      {
+        "dealId": "D2",
+        "campaign": "Tech Mania",
+        "activeDeals": 1,
+        "clicks": 890,
+        "checkouts": 214,
+        "revenueInr": 98000
+      },
+      {
+        "dealId": "D3",
+        "campaign": "Style Week",
+        "activeDeals": 1,
+        "clicks": 0,
+        "checkouts": 0,
+        "revenueInr": 0
+      }
+    ],
+    "campaignTotals": {
+      "activeDeals": 3,
+      "totalClicks": 2130,
+      "totalCheckouts": 549,
+      "totalRevenueInr": 253000
+    }
+  },
+  "customer": {
+    "appBranding": "Rewardz",
+    "profile": {
+      "displayName": "Ananya",
+      "locationLabel": "Connaught Place, New Delhi",
+      "lat": 28.6315,
+      "lng": 76.2167
+    },
+    "loyalty": {
+      "tier": "Gold",
+      "points": 8420,
+      "pointsToRupee": 0.5,
+      "cashbackInr": 1250.5
+    },
+    "promoCarousel": [
+      {
+        "id": "promo-1",
+        "pill": "REFER & EARN",
+        "title": "Get ₹200 bonus",
+        "subtitle": "For every friend you invite.",
+        "theme": "blue",
+        "linkTo": "/app/refer",
+        "cta": "Start referring"
+      },
+      {
+        "id": "promo-2",
+        "pill": "WEEKEND",
+        "title": "Extra 12% at FreshMart",
+        "subtitle": "Stack with your Gold tier benefits.",
+        "theme": "amber",
+        "linkTo": "/app/deals/D1",
+        "cta": "View deal"
+      },
+      {
+        "id": "promo-3",
+        "pill": "FLASH",
+        "title": "₹500 off electronics",
+        "subtitle": "TechZone · limited slots today.",
+        "theme": "violet",
+        "linkTo": "/app/deals/D2",
+        "cta": "View deal"
+      },
+      {
+        "id": "promo-4",
+        "pill": "POINTS",
+        "title": "2× points on dining",
+        "subtitle": "FoodPark partners this week.",
+        "theme": "emerald",
+        "linkTo": "/app/deals/D-X1",
+        "cta": "View deal"
+      }
+    ],
+    "nearbyDeals": [
+      {
+        "dealId": "D-N1",
+        "merchant": "FreshMart",
+        "distanceKm": 1.2,
+        "discountLabel": "50% OFF",
+        "title": "Buy 1 Get 1 Coffee",
+        "icon": "coffee",
+        "lat": 28.6350,
+        "lng": 76.2200,
+        "color": "#f97316"
+      },
+      {
+        "dealId": "D-N2",
+        "merchant": "TechZone",
+        "distanceKm": 3.5,
+        "discountLabel": "₹500 OFF",
+        "title": "Flat off earbuds",
+        "icon": "headphones",
+        "lat": 28.6550,
+        "lng": 76.2400,
+        "color": "#8b5cf6"
+      },
+      {
+        "dealId": "D-N3",
+        "merchant": "StyleHub",
+        "distanceKm": 2.1,
+        "discountLabel": "30% OFF",
+        "title": "Summer wardrobe",
+        "icon": "shirt",
+        "lat": 28.6180,
+        "lng": 76.2050,
+        "color": "#ec4899"
+      }
+    ],
+    "walletCoupons": [
+      {
+        "id": "CW-1",
+        "title": "Summer Splash — Extra 5%",
+        "merchant": "FreshMart",
+        "expiresOn": "2025-06-30",
+        "state": "Active",
+        "linkedDealId": "D1",
+        "code": "FM-SPLASH5"
+      },
+      {
+        "id": "CW-2",
+        "title": "Tech Mania Cashback",
+        "merchant": "TechZone",
+        "expiresOn": "2025-05-20",
+        "state": "Used",
+        "linkedDealId": "D2",
+        "code": "TZ-MANIA"
+      },
+      {
+        "id": "CW-3",
+        "title": "Style Week Early Access",
+        "merchant": "StyleHub",
+        "expiresOn": "2025-07-07",
+        "state": "Locked",
+        "linkedDealId": "D3",
+        "code": "SH-EARLY"
+      }
+    ],
+    "popularDeals": [
+      { "dealId": "D1", "title": "Buy 1 Get 1 Free Coffee", "discountLabel": "50% OFF", "merchant": "FreshMart", "clicks": 1240, "expiresOn": "2025-06-30", "icon": "coffee" },
+      { "dealId": "D2", "title": "Flat ₹500 off Earbuds", "discountLabel": "₹500 OFF", "merchant": "TechZone", "clicks": 890, "expiresOn": "2025-05-20", "icon": "headphones" },
+      { "dealId": "D-X1", "title": "Gourmet Thursdays", "discountLabel": "18% OFF", "merchant": "FoodPark", "clicks": 640, "expiresOn": "2025-07-15", "icon": "utensils" }
+    ],
+    "popularCategories": [
+      {
+        "categoryId": "CAT-FB",
+        "name": "Food & Beverage",
+        "dealCount": 38,
+        "emoji": "🍔",
+        "dealIds": ["D1", "D-N1", "D-FL-1", "D-X1"]
+      },
+      {
+        "categoryId": "CAT-EL",
+        "name": "Electronics",
+        "dealCount": 29,
+        "emoji": "💻",
+        "dealIds": ["D2", "D-N2"]
+      },
+      {
+        "categoryId": "CAT-FA",
+        "name": "Fashion",
+        "dealCount": 24,
+        "emoji": "👗",
+        "dealIds": ["D3", "D-N3", "D-FL-2"]
+      }
+    ],
+    "todaysDeals": [
+      { "dealId": "D-FL-1", "title": "Flash: Staples", "endsInHours": 6, "merchant": "FreshMart", "discountLabel": "12%" },
+      { "dealId": "D-FL-2", "title": "Flash: Accessories", "endsInHours": 11, "merchant": "StyleHub", "discountLabel": "₹300" }
+    ]
+  }
+}

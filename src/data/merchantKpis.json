@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "code": "INR",
+    "symbol": "₹",
+    "lastUpdatedIso": "2026-04-07T10:00:00.000Z"
+  },
+  "merchantId": "P-fresh",
+  "merchantName": "FreshMart",
+  "performanceOverview": {
+    "totalActiveDeals": 8,
+    "totalClicksOnDeals": 12400,
+    "totalCheckouts": 3100,
+    "totalRevenueFromDealsInr": 485000
+  },
+  "dealSpecificAnalysis": [
+    { "dealId": "D-FM-01", "title": "Weekend Grocery 12% Off", "clicks": 1500, "checkouts": 375, "revenueInr": 60000, "conversionRate": 0.25 },
+    { "dealId": "D-FM-02", "title": "Fresh Produce Flash", "clicks": 1600, "checkouts": 400, "revenueInr": 61000, "conversionRate": 0.25 },
+    { "dealId": "D-FM-03", "title": "Bulk Staples Bundle", "clicks": 1550, "checkouts": 388, "revenueInr": 59000, "conversionRate": 0.25 },
+    { "dealId": "D-FM-04", "title": "Breakfast Essentials", "clicks": 1580, "checkouts": 395, "revenueInr": 62000, "conversionRate": 0.25 },
+    { "dealId": "D-FM-05", "title": "Snack & Beverage Combo", "clicks": 1520, "checkouts": 380, "revenueInr": 60500, "conversionRate": 0.25 },
+    { "dealId": "D-FM-06", "title": "Household Care Week", "clicks": 1540, "checkouts": 385, "revenueInr": 59500, "conversionRate": 0.25 },
+    { "dealId": "D-FM-07", "title": "Frozen Foods Special", "clicks": 1530, "checkouts": 383, "revenueInr": 60000, "conversionRate": 0.25 },
+    { "dealId": "D-FM-08", "title": "Organic Pantry Picks", "clicks": 1580, "checkouts": 394, "revenueInr": 63000, "conversionRate": 0.25 }
+  ],
+  "userEngagement": {
+    "userClicksOnDeals": 12400,
+    "userCheckouts": 3100,
+    "bounceRate": 0.18
+  },
+  "realTimeTracking": {
+    "activeDeals": 8,
+    "uniqueClicks": 12400,
+    "checkouts": 3100,
+    "revenueInr": 485000,
+    "lastTickIso": "2026-04-07T10:00:00.000Z"
+  }
+}

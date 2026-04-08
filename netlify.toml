@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# Single-page app: every path should serve index.html (HTTP 200 rewrite)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

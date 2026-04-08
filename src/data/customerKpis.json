@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "code": "INR",
+    "symbol": "₹",
+    "lastUpdatedIso": "2026-04-07T10:00:00.000Z"
+  },
+  "userId": "U-10021",
+  "loyaltyBalances": {
+    "tier": "Gold",
+    "myPoints": 8420,
+    "pointsToRupee": 0.5,
+    "myCashbackInr": 1250.5
+  }
+}
