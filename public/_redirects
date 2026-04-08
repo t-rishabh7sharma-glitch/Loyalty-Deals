@@ -1,0 +1,2 @@
+# SPA fallback — let React Router handle /app, /admin, /login, etc. on refresh
+/*    /index.html   200
